@@ -144,7 +144,7 @@ $prompt = New-OpenAICompletionPrompt -query "What is the Capital of France?" -ro
 
 In the above example, we are creating a prompt with a user role, a query of "What is the Capital of France?", a system role with the message "You are a helpful AI.", and an assistant role with the message "Bonjour, how can I help you today?".
 
-Please note: The functions expect the prompt to be of type [System.Collections.ArrayList]. WWhy? Because we can add and remove content easily without destroying the array again and again. So make sure you declare your variable that holds the prompt to be as of type [System.Collections.ArrayList] when you want to reuse your prompt as an input.
+Please note: The functions expect the prompt to be of type [System.Collections.ArrayList]. Why? Because we can add and remove content easily without destroying the array again and again. So make sure you declare your variable that holds the prompt to be as of type [System.Collections.ArrayList] when you want to reuse your prompt as an input.
 
 You can also use the "short-form" by just specifying the query, using the default values (Chat character):
 ```powershell
